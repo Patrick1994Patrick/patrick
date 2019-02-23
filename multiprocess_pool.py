@@ -11,5 +11,7 @@ def multiping():
 
 	pool.close()
 	pool.join()
+	print('Done')
+	
 if __name__ == '__main__': 
 	multiping()
